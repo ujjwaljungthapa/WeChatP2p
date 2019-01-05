@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeChat P2p</string>
+    <string name="main_button_home">Home</string>
+
+    <string name="home_button_chat">Chat</string>
+    <string name="home_button_edit_profile">Edit Profile</string>
+    <string name="home_button_share">Share</string>
+    <string name="home_button_about_us">About Us</string>
+    <string name="say_jivraj">Hey there! Welcome to our WeChat app. \nCamping and staying with friends in upper himalayas with internet connectivity, we always had trouble to chat with each other at evening, especially when we had to stay in different camps. So we came up with the idea to effectively communicate (without internet) with each other using the Wi-Fi Direct technology provided we are near to wifi range. \n\nHence came birth of this application. Enjoy!</string>
+    <string name="say_bishal">Hi everyone! Warm Namaskar from me. \nBack when traveling at remote areas with friends, we had hard time talking with each other if we were not in same camp. A chance to talk about the journey in the evening would pose challenge though we wanted to. Hence we decided to create this application for us and you so that it would be easy talk with each other on such scenario where there was no internet connectivity. \n\nWe hope you liked it. Enjoy!</string>
+    <string name="say_ujjwal">Hey there! A warm welcome. \nAs a developer any kind of feedbacks to make this app even better is greatly appreciated. And guys making these kinds of app are real easy. So lets find the challenges persisting in our society and digitize Nepal. \n\nThank you very much. Enjoy!</string>
+
+</resources>

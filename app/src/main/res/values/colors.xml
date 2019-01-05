@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#40fff9</color>
+
+    <!--For chat-->
+    <color name="chatcolorPrimary">#3f77a3</color>
+    <color name="chatcolorPrimaryDark">#0f3858</color>
+    <color name="chatcolorAccent">#ffffff</color>
+
+    <!--For Main-->
+    <color name="maincolorText">#FFFFFF</color>
+    <color name="homecolorText">#FFFFFF</color>
+
+    <!--For Home-->
+    <color name="homeBackGroundcolor">#fcfcfc</color>
+    <color name="homelightgrayLine">#e6e5e5</color>
+    <color name="homeyellow">#ffb300</color>
+    <color name="homepurple">#7c4dff</color>
+    <color name="homegreen">#00bf66</color>
+    <color name="homered">#ca0f0f</color>
+    <color name="homeaqua">#19d9d9</color>
+
+    <!--For about us-->
+    <color name="bg_cardcolor">#FFA500</color>
+    <color name="address_color">#737171</color>
+
+</resources>

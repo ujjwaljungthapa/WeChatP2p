@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.electronics.invento.wechatp2p.ChatActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_chat_header"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/chat_header">
+
+        <TextView
+            android:id="@+id/textView_chat_username"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:gravity="center_vertical"
+            android:text="Username"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_chat_status"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:layout_toEndOf="@+id/textView_chat_username"
+            android:gravity="center_vertical"
+            android:text="(offline)"
+            android:textSize="16sp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toStartOf="@+id/imageButton_chat_popUp"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/imageView_chat_user_profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_profile" />
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imageButton_chat_popUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="6dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_popup_setting" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_chat_control"
+        android:layout_below="@+id/rl_chat_header" />
+
+    <LinearLayout
+        android:id="@+id/ll_chat_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <ImageView
+            android:id="@+id/imageView_chat_select_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_icon_select" />
+
+        <EditText
+            android:id="@+id/editText_chat_messages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:ems="10"
+            android:hint="Send Message..."
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton_chat_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_send_chat_vector" />
+    </LinearLayout>
+</RelativeLayout>
